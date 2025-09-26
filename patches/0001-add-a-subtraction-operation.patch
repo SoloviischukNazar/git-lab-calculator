@@ -1,0 +1,28 @@
+From 5382bee0897d2b5a6a964129558fb9f445196273 Mon Sep 17 00:00:00 2001
+From: Sergii Piatakov <sergii.piatakov@globallogic.com>
+Date: Thu, 15 Nov 2018 15:17:29 +0200
+Subject: [PATCH 1/2] add a subtraction operation
+
+Add member-function which performs a subtraction in terms of
+an addition.
+
+Signed-off-by: Soloviischuk Nazar <soloviischuk.nazar@lll.kpi.ua>
+---
+ calculator.cpp | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/calculator.cpp b/calculator.cpp
+index cc187ce..b91afea 100644
+--- a/calculator.cpp
++++ b/calculator.cpp
+@@ -2,7 +2,6 @@
+ 
+ int Calculator::Add (double a, double b)
+ {
+-
+     return a + b;
+ }
+ 
+-- 
+2.47.3
+
